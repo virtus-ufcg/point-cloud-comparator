@@ -1192,8 +1192,8 @@ double computeSimilarity(char** argv, std::vector<int> pcl_filename_indices) {
 		clusters_pcl_1 = euclidean_cluster_segmentation(point_cloud1_ptr);
 		clusters_pcl_2 = euclidean_cluster_segmentation(point_cloud2_ptr);
 	} else {
-		clusters_pcl_1 = region_growing_segmentation(point_cloud1_ptr, true);
-		clusters_pcl_2 = region_growing_segmentation(point_cloud2_ptr, true);
+		clusters_pcl_1 = region_growing_segmentation(point_cloud1_ptr, seeClusters);
+		clusters_pcl_2 = region_growing_segmentation(point_cloud2_ptr, seeClusters);
 	}
 
 	myfile << "Number of points of PCL 1: " << point_cloud1_ptr->points.size()
@@ -1364,6 +1364,8 @@ double computeSimilarity(char** argv, std::vector<int> pcl_filename_indices) {
 				std::cout << "No closer centroid found" << std::endl;
 		}
 	}
+
+	std::cout << "match the segment step finished" << std::endl;
 
 	myfile << "\n------------------------------------\n";
 	myfile << "Information of matches of clusters of PCL 1 and PCL 2:\n";

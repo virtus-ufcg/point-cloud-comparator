@@ -1,5 +1,0 @@
-/home/adrian/PointCloudComparator/build/CMakeFiles/rebuild_cache.dir
-/home/adrian/PointCloudComparator/build/CMakeFiles/edit_cache.dir
-/home/adrian/PointCloudComparator/build/CMakeFiles/comparator.dir
-/home/adrian/PointCloudComparator/build/CMakeFiles/segmentator.dir
-/home/adrian/PointCloudComparator/build/CMakeFiles/mylib.dir

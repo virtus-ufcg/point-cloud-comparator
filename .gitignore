@@ -1,0 +1,4 @@
+build/CMakeFiles
+build/comparator
+build/segmentator
+*.log

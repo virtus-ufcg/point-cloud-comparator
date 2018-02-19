@@ -1,4 +1,2 @@
-build/CMakeFiles
-build/comparator
-build/segmentator
+build
 *.log

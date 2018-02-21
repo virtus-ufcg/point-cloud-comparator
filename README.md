@@ -1,11 +1,6 @@
 # Point Cloud Comparator
 
-### Author
-* [Adrián Arroyo Pérez](https://www.linkedin.com/in/adrian-arroyo-p%C3%A9rez-85217967/)
-
-### Supervisors
-* [Marc Morenza](https://www.upf.edu/es/web/etic/entry/-/-/97756/409/marc-morenza)
-* [Victor Casamayor](https://www.upf.edu/es/web/etic/entry/-/-/116031/409/victor-casamayor)
+* Forked from (adr-arroyo/PointCloudComparator)[https://github.com/adr-arroyo/PointCloudComparator]
 
 ## General information
 

@@ -1,6 +1,6 @@
 # Point Cloud Comparator
 
-* Forked from (adr-arroyo/PointCloudComparator)[https://github.com/adr-arroyo/PointCloudComparator]
+* Forked from [adr-arroyo/PointCloudComparator](https://github.com/adr-arroyo/PointCloudComparator)
 
 ## General information
 

@@ -44,7 +44,7 @@
 #include <pcl/octree/octree.h>
 #include <pcl/features/shot.h>
 #include <pcl/recognition/cg/geometric_consistency.h>
-#include "../include/segmentation.h"
+#include "segmentation.h"
 /*#include <CGAL/linear_least_squares_fitting_3.h>
 #include <CGAL/Simple_cartesian.h>*/
 

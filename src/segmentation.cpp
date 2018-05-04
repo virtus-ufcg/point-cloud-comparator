@@ -5,7 +5,7 @@
 
  */
 
-#include "../include/segmentation.h"
+#include "segmentation.h"
 
 int planar_segmentation(std::string filename) {
 	pcl::PointCloud<pcl::PointXYZRGB>::Ptr point_cloud_ptr(

@@ -4,7 +4,7 @@
  *      Author: Adrian Arroyo - adr.arroyo.perez@gmail.com
 
  */
-#include "../include/comparator.h"
+#include "comparator.h"
 
 typedef pcl::Histogram<32> RIFT32;
 typedef pcl::PointXYZ PointType;
